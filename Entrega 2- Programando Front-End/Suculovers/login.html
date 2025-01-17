@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylecopy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bienvenido a Suculovers</title>
+</head>
+
+<body>
+    <div class="container-form sign-up">
+        <form class="formulario">
+            <h2 class="create-account">Iniciar Sesión</h2>
+            <div class="iconos">
+                <div class="border-icon" id="redirect-instagram">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon" id="redirect-google">
+                    <i class='bx bxl-google'></i> 
+                </div>
+                <div class="border-icon" id="redirect-facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">
+                <a href="#" id="redirect-register">¿Olvidaste tu contraseña?</a>
+            </p>
+
+            <!-- Campo de email -->
+            <input type="email" placeholder="Email">
+            
+            <!-- Contenedor de contraseña con enlace para mostrar/ocultar -->
+            <div class="password-container">
+                <input type="password" placeholder="Contraseña" id="password">
+                <span id="toggle-password" class="toggle-password">Mostrar</span>
+            </div>
+
+            <!-- Botón de inicio de sesión -->
+            <input type="button" value="Iniciar Sesión" id="redirect-login">
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
